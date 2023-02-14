@@ -1,4 +1,9 @@
+solutions/
+
 Data/
+
+grader.py
+grader.ipynb
 
 # Word temporary
 ~$*.doc*
