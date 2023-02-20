@@ -67,6 +67,21 @@ Find the maximum possible total from top to bottom of the triangle below:
 
 
 ## 4. Table joining 
+For all orders in the year of 2010, find the average zip code (rounded to the nearest whole number) of all zip codes (as integers) for the corresponding customer addresses at the given time of the order. 
+
+### Data Dictionary
+
+#### orders.csv
+* orderID: the unique order identifier
+* datetime: the date the order was placed
+* customerID: the customer who place the order
+
+#### addresses.csv
+* addressID: the unique address indentifier
+* customerID: the customerID associated with this address
+* dt_eff: the date the address became accurate (inclusive)
+* dt_ends: the date the address expired (exclusive)
+
 
 ## 5. Shrek 
 Count the number of times the word **love** appears in the transcript of the film *Shrek (2001)*. Consider **all** text present in the transcript, not just speaking parts. Include the possessive **"love's"** in your count. **Do not** include the plural *"loves"* or any other similar words like *"loved"*, *"lover"*, or *"lovely"*.
