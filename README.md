@@ -4,6 +4,9 @@ A timed Python problem-based workshop, presented for the Psi Eta Mu fraternity
 # Instructions
 
 ## Workshop Instructions
+* Members will be divided into teams
+* Each team will work together to solve prompts
+* 
 
 ## Submitting Answers
 You are permitted to submit answers as many times as you choose. Be sure to include your team's submission PIN when inputting your answers. Do not share you submission PIN with anyone outside your team!
@@ -43,11 +46,30 @@ For autumn months (September, October, November) in Vancouver, British Columbia 
 Find the number of Friday the 13th's that have occurred between January 1st, 1900 and January 1st, 2000.
 
 ## 3. Most optimal path
+By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total is 23. 3+7+4+9 = 23
+
+![](static/triangle.png)
+
+Find the maximum possible total from top to bottom of the triangle below:
+
+```
+                  56
+                34  31
+              47  26  21
+            61  41  12  00
+          60  88  27  48  64
+        40  96  18  80  15  26
+      46  76  04  66  16  76  67
+    65  60  21  22  65  35  55  18
+  43  06  85  10  51  45  71  05  22
+57  62  65  62  78  31  91  61  00  81
+```
+
 
 ## 4. Table joining 
 
 ## 5. Shrek 
-
+Count the number of times the word **love** appears in the transcript of the film *Shrek (2001)*. Consider **all** text present in the transcript, not just speaking parts. Include the possessive **"love's"** in your count. **Do not** include the plural *"loves"* or any other similar words like *"loved"*, *"lover"*, or *"lovely"*.
 
 
 # Author
