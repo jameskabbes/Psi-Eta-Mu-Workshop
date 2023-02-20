@@ -4,9 +4,10 @@ A timed Python problem-based workshop, presented for the Psi Eta Mu fraternity
 # Instructions
 
 ## Workshop Instructions
-* Members will be divided into teams
-* Each team will work together to solve prompts
-* 
+* Members will be divided into teams.
+* Teams will be given 5 prompts to complete in a timed manner.
+* Each team will work together to solve prompts.
+* All prompts can be adequately solved with sub-optimal solutions. Since you are being timed, it is recommended not to seek perfection.
 
 ## Submitting Answers
 You are permitted to submit answers as many times as you choose. Be sure to include your team's submission PIN when inputting your answers. Do not share you submission PIN with anyone outside your team!
@@ -37,6 +38,8 @@ Winners will be featured in a congratulatory LinkedIn post :)
 For autumn months (September, October, November) in Vancouver, British Columbia during the years of 1990-2009 (inclusive), what is average range of temperature (in degrees Celsius) experienced in a given day? Round answers to the nearest whole number.
 
 ### Data Dictionary
+#### weather.csv
+
 * *time* shows date of reading in YYYY-MM-DD format
 * *tavg* shows average temperature for the day in degrees Celsius
 * *tmin* shows minimum temperature for the day in degrees Celsius
@@ -67,14 +70,14 @@ Find the maximum possible total from top to bottom of the triangle below:
 
 
 ## 4. Table joining 
-For all orders in the year of 2010, find the average zip code (rounded to the nearest whole number) of all zip codes (as integers) for the corresponding customer addresses at the given time of the order. 
+For all orders in the year of 2010, find the average zip code (rounded to the nearest whole number) of all zip codes (as integers) for the corresponding customer address on the date of the order. 
 
 ### Data Dictionary
 
 #### orders.csv
 * orderID: the unique order identifier
 * datetime: the date the order was placed
-* customerID: the customer who place the order
+* customerID: the customer who placed the order
 
 #### addresses.csv
 * addressID: the unique address indentifier
