@@ -1,8 +1,7 @@
 solutions/
-
 Data/
 
-grader.py
+user_config.json
 grader.ipynb
 
 # Word temporary
