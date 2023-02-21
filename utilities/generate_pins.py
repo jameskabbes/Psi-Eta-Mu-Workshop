@@ -1,6 +1,7 @@
 import random
+import py_starter as ps
 
-N = 50
+N = 25
 DIGITS = 8
 
 pins = []
@@ -12,6 +13,7 @@ for i in range( N ):
 
     pins.append(pin)
 
-f = open( '../Data/valid_pins.txt', 'w' )
-f.write( '\n'.join( pins ) )
-f.close()
+if ps.confirm_raw(string='This will overwrite previous pins.'):
+    f = open( '../Data/valid_pins.txt', 'w' )
+    f.write( '\n'.join( pins ) )
+    f.close()
