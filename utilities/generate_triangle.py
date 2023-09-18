@@ -1,4 +1,4 @@
-import py_starter as ps
+import py_seedlings as ps
 
 DEPTH = 10
 MIN_NUM = 0

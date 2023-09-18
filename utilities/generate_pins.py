@@ -1,5 +1,5 @@
 import random
-import py_starter as ps
+import py_seedlings as ps
 
 N = 25
 DIGITS = 8
